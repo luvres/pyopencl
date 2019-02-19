@@ -1,4 +1,4 @@
-## PyOpenCL
+## PyOpenCL AMDGPU
 -----
 
 ### Pull image
