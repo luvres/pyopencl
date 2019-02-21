@@ -9,8 +9,7 @@ RUN cd \
   \
   # Miniconda3
     && MINICONDA="Miniconda3-latest-Linux-x86_64.sh" \
-    && curl -L https://repo.anaconda.com/miniconda/${MINICONDA} \
-                      -o ${MINICONDA} \
+    && curl -L https://repo.anaconda.com/miniconda/${MINICONDA} -o ${MINICONDA} \
   \
     && /bin/bash ${MINICONDA} -b -p /usr/local/miniconda3 \
     && rm ${MINICONDA} \
